@@ -25,18 +25,18 @@ namespace DemoREST.Controllers
 
         // POST api/<TeacherController>
         /*[HttpPost]
-        public Book Post([FromBody] Book value)
+        public Teacher Post([FromBody] Teacher value)
         {
-            return _manager.Add(value);
+            return repo.Add(value);
         }*/
 
-        // DELETE api/<BooksController>/5
+        // DELETE api/<TeacherController>/5
         /*[HttpDelete("{id}")]
         public void Delete(int id)
         {
         }*/
 
-        // PUT api/<BooksController>/5
+        // PUT api/<TeacherController>/5
         /*[HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {

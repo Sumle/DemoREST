@@ -14,7 +14,8 @@ namespace DemoREST.Repositories.Tests
         [TestMethod()]
         public void GetAllTest()
         {
-            Assert.Fail();
+            TeacherRepository repo = new();
+            Assert.AreEqual(2, repo.GetAll().Count);
         }
     }
 }
