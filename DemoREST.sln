@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoREST", "DemoREST\DemoREST.csproj", "{694C2ED7-F128-449C-9BE6-E988D81A1198}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoREST", "DemoREST\DemoREST.csproj", "{694C2ED7-F128-449C-9BE6-E988D81A1198}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoRESTTests", "DemoRESTTests\DemoRESTTests.csproj", "{4A040701-DC50-4C61-A4B1-19B6A2F5A623}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{694C2ED7-F128-449C-9BE6-E988D81A1198}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{694C2ED7-F128-449C-9BE6-E988D81A1198}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{694C2ED7-F128-449C-9BE6-E988D81A1198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A040701-DC50-4C61-A4B1-19B6A2F5A623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A040701-DC50-4C61-A4B1-19B6A2F5A623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A040701-DC50-4C61-A4B1-19B6A2F5A623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A040701-DC50-4C61-A4B1-19B6A2F5A623}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
